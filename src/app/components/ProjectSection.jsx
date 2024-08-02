@@ -7,21 +7,21 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "Portfolio Website",
     description: "Project 1 description",
-    image: "/images/projects/1.png",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/shubh1777/ShubhamPortfolio",
+    previewUrl: "https://shubham-portfolio-6egn.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "E-Commerce Website",
     description: "Project 2 description",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/shubh1777/ShubhMart-Ecommerce-website",
+    previewUrl: "https://shubh1777.github.io/ShubhMart-Ecommerce-website/",
   },
   {
     id: 3,
@@ -34,28 +34,28 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Food Ordering ChatBot",
     description: "Project 4 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "AI/ML,Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Heart Disease Prediction",
+    description: ".",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "AI/ML"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "readLites",
     description: "Project 5 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "AI/ML"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="AI/ML"
+          isSelected={tag === "AI/ML"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

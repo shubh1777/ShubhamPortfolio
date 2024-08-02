@@ -1,0 +1,5 @@
+resend
+react-animated-numbers
+react-type-animation
+framer-motion
+@heroicons/react
